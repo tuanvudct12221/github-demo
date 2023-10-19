@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+body h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    max-width: 900px;
+    min-height: 500px;
+    justify-content: center;
+    box-shadow: 0px 10px 10px 10px #a9a5a5;
+    border-radius: 10px;
+}
+.container h1{
+    font-size: 50px;
+}
+
+
+.left-sidebar {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column; /* Đặt các phần tử con theo chiều dọc */
+    align-items: center; /* Dựng giữa theo chiều ngang */
+    justify-content: center;
+    padding-top: 15px; /* Khoảng cách từ chữ "sign in" lên trên */
+}
+
+.navbar {
+    display: flex;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(189, 182, 182);
+    border-radius: 50%;
+    margin-left: 10px;
+}
+input{
+    border: 2px solid rgb(3, 112, 25);
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 3%;
+    background-color: rgb(239, 238, 238);
+}
+input:valid{
+    border: 2px solid rgb(17, 105, 177);
+}
+input:invalid{
+    border: 2px solid red;
+}
+button{
+    background-color: rgb(230, 120, 31);
+    color: aliceblue;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px ;
+    cursor: pointer;
+}
+.creat{
+    cursor: pointer;    
+}
+.creat:hover{
+    text-decoration: bottom;
+}
+
+.right-sidebar {
+    flex-basis: 50%;
+    background-color: rgb(244, 71, 100);
+    border-radius: 10px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-sidebar h1{
+    margin-bottom: 10px;
+
+}
+.right-sidebar p{
+    margin: 0 0 5px 0;
+}
+.content{
+    margin-bottom: 10px;
+
+}
+.right-sidebar button{
+    background-color: rgb(244, 71, 100);
+    border:1px solid white;
+    margin-top: 15px ;
+    
+}
